@@ -4,7 +4,7 @@ module.exports = {
     botInvite: "",
     supportServer: "",
     mongodbURL:
-        "mongodb://mongo:HRMGomjMwARKqVvsJOWivIqfQRExfaSZ@roundhouse.proxy.rlwy.net:20821",
+        "mongodb://mongo:mUoEMUohpbXWRXJJplUHvwqTlTHEITeG@roundhouse.proxy.rlwy.net:45856",
     status: "RTXX GG",
     commandsDir: "./commands",
     language: "en",
