@@ -1,11 +1,11 @@
 module.exports = {
-    TOKEN: "MTIyODUxMTUyMzA5ODQ2MDE3MA.G4y6TM.j7xjHroIOnVCgPk7llBQOVQkyIzKK1zv_RPKoo",
+    TOKEN: process.env.BOT_TOKEN,
     ownerID: ["1004206704994566164", ""],
     botInvite: "",
     supportServer: "",
     mongodbURL:
-        "mongodb://mongo:mUoEMUohpbXWRXJJplUHvwqTlTHEITeG@roundhouse.proxy.rlwy.net:45856",
-    status: "RTXX GG",
+        `mongodb+srv://${process.env.DBUSER}:${process.env.DBPASSWORD}@cluster0.npyinlm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
+    status: "ACTIVE",
     commandsDir: "./commands",
     language: "en",
     embedColor: "00fbff",
@@ -13,7 +13,7 @@ module.exports = {
 
     sponsor: {
         status: true,
-        url: "https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A",
+        url: "",
     },
 
     voteManager: {
