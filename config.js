@@ -4,7 +4,7 @@ module.exports = {
     botInvite: "",
     supportServer: "",
     mongodbURL:
-        `mongodb+srv://${process.env.DBUSER}:${process.env.DBPASSWORD}@cluster0.npyinlm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
+        `mongodb+srv://${process.env.DBUSER}:${process.env.DBPASSWORD}@cluster0.xees0fr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
     status: "ACTIVE",
     commandsDir: "./commands",
     language: "en",
